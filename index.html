@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PinVideo.io — Pinterest Video Download Resource</title>
+  <meta name="description" content="A practical open-source resource about Pinterest video URLs, downloading workflows, formats, and browser-based tools from PinVideo.io.">
+  <link rel="canonical" href="https://pinvideo-io.github.io/">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PinVideo.io — Pinterest Video Download Resource">
+  <meta property="og:description" content="Practical documentation and resources for working with Pinterest video URLs and downloading Pinterest videos.">
+  <meta property="og:url" content="https://pinvideo-io.github.io/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="PinVideo.io — Pinterest Video Download Resource">
+  <meta name="twitter:description" content="Practical documentation and resources for Pinterest video URLs and downloading workflows.">
+  <style>
+    :root { --bg:#fff; --text:#171717; --muted:#666; --line:#e8e8e8; --accent:#e60023; --soft:#fafafa; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--text); background:var(--bg); line-height:1.65; }
+    .wrap { width:min(1040px,92%); margin:auto; }
+    header { border-bottom:1px solid var(--line); background:#fff; position:sticky; top:0; z-index:10; }
+    nav { min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { font-weight:800; font-size:1.15rem; text-decoration:none; color:var(--text); }
+    .brand span { color:var(--accent); }
+    nav a { color:var(--muted); text-decoration:none; margin-left:20px; font-size:.95rem; }
+    nav a:hover { color:var(--text); }
+    .hero { padding:88px 0 70px; background:linear-gradient(#fff,#fdfdfd); }
+    .eyebrow { color:var(--accent); font-weight:800; letter-spacing:.08em; text-transform:uppercase; font-size:.78rem; }
+    h1 { max-width:760px; font-size:clamp(2.3rem,6vw,4.6rem); line-height:1.04; letter-spacing:-.045em; margin:14px 0 22px; }
+    .lead { max-width:720px; color:var(--muted); font-size:1.16rem; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { display:inline-block; padding:11px 17px; border-radius:10px; text-decoration:none; font-weight:750; border:1px solid var(--text); color:#fff; background:var(--text); }
+    .btn.secondary { color:var(--text); background:#fff; border-color:var(--line); }
+    section { padding:68px 0; border-bottom:1px solid var(--line); }
+    h2 { font-size:2rem; line-height:1.15; letter-spacing:-.025em; margin:0 0 14px; }
+    h3 { margin-top:0; }
+    .muted { color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:28px; }
+    .card { border:1px solid var(--line); border-radius:16px; padding:24px; background:#fff; }
+    .card a { color:var(--text); font-weight:750; }
+    .note { background:var(--soft); border:1px solid var(--line); border-radius:16px; padding:24px; margin-top:28px; }
+    ul { padding-left:20px; }
+    footer { padding:35px 0 55px; color:var(--muted); font-size:.92rem; }
+    footer a { color:var(--text); }
+    @media (max-width:760px) { nav a { display:none; } .hero { padding:60px 0 50px; } .grid { grid-template-columns:1fr; } section { padding:50px 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="https://pinvideo.io/">Pin<span>Video</span>.io</a>
+        <div>
+          <a href="#about">About</a>
+          <a href="#resources">Resources</a>
+          <a href="https://github.com/pinvideo-io/pinvideo-io.github.io">GitHub</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Open-source resource</div>
+        <h1>Pinterest video download resources, documentation and tools.</h1>
+        <p class="lead">This project collects practical information about Pinterest video URLs, downloading workflows, common formats, and related technical resources. It supports the browser-based tools available at PinVideo.io.</p>
+        <div class="actions">
+          <a class="btn" href="https://pinvideo.io/">Visit PinVideo.io</a>
+          <a class="btn secondary" href="https://github.com/pinvideo-io/pinvideo-io.github.io">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2>About this project</h2>
+        <p class="muted">PinVideo.io is a browser-based resource for people who need a straightforward way to work with Pinterest video links. This GitHub Pages project provides supporting documentation and educational material rather than acting as a replacement for the main website.</p>
+        <div class="note"><strong>Use responsibly.</strong> Only download or reuse content when you have the right to do so and follow Pinterest's applicable terms and the rights of the content owner.</div>
+      </div>
+    </section>
+
+    <section id="resources">
+      <div class="wrap">
+        <h2>Resources</h2>
+        <p class="muted">Start with the guides below for practical information about Pinterest video links and downloading.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Download Pinterest Videos</h3>
+            <p class="muted">A concise guide to copying a Pinterest video URL and using a browser-based downloader.</p>
+            <a href="docs/download-pinterest-videos.html">Read the guide →</a>
+          </article>
+          <article class="card">
+            <h3>Pinterest Video URLs</h3>
+            <p class="muted">Learn what a Pinterest video link is, where to find it, and how to use it with a downloader.</p>
+            <a href="docs/pinterest-video-urls.html">Read the guide →</a>
+          </article>
+          <article class="card">
+            <h3>Common Questions</h3>
+            <p class="muted">Answers to practical questions about formats, browser use, downloads, and responsible reuse.</p>
+            <a href="docs/faq.html">Read the FAQ →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Why this repository exists</h2>
+        <p class="muted">The repository keeps supporting material transparent and accessible on GitHub. It is designed as a useful reference for users and developers interested in Pinterest video URLs and browser-based downloading workflows.</p>
+        <p>For the main online tool, visit <a href="https://pinvideo.io/">PinVideo.io</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© 2026 PinVideo.io. This repository is an independent supporting resource for PinVideo.io.</p>
+      <p><a href="https://pinvideo.io/">PinVideo.io</a> · <a href="https://github.com/pinvideo-io/pinvideo-io.github.io">GitHub repository</a></p>
+    </div>
+  </footer>
+</body>
+</html>
